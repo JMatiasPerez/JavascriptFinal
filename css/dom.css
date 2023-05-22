@@ -1,0 +1,112 @@
+body {
+    background-color: #dfe4ea;
+    width: 1024px;
+    height: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navegador {
+    border: 3px solid black;
+    height: 90px;
+}
+
+#navegador nav ul {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+#navegador nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#navegador nav ul li a {
+    position: relative;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#navegador nav ul li a:after {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 6px;
+    background-color: black;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);
+}
+
+#navegador nav ul li a:hover:after {
+    opacity: 1;
+    transform: translateY(15px)
+}
+
+#principal {
+    background-color: white;
+    position: relative;
+}
+
+#principal h1 {
+    color: black;
+    font-size: 26px;
+    text-align: center;
+}
+
+.principal_container h2 {
+    color: green;
+    text-align: left;
+    font-size: 20px;
+}
+
+.principal_container p {
+    color: blue;
+    font-size: 18px;
+}
+
+#cajaimg img {
+    height: 300px;
+    margin-left: 270px;
+}
+
+#cajaimg1 img {
+    width: 600px;
+    margin-left: 200px;
+}
+
+#cajaimg2 img {
+    width: 590px;
+    margin-left: 200px;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+}
+
+
+/*Responsive*/
+
+@media all and (min-width:600px) and (max-width: 1023px) {}
+
+
+/* Media para Iphones 6/7/8  */
+
+@media all and (min-width:375px) and (max-width: 667px) {}

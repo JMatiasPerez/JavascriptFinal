@@ -1,0 +1,247 @@
+body {
+    background-color: #dfe4ea;
+    width: 1024px;
+    height: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container-flexbox {
+    height: 175em;
+    border: 4.5px solid orange;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 145px;
+}
+
+#container-flexbox h3 {
+    text-align: center;
+}
+
+#contenedor-flex {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+.contenedor-flex-center {
+    height: 140px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flex-end {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#container-flexbox-end h3 {
+    text-align: center;
+}
+
+.contenedor-flex-end1 {
+    height: 140px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flex-space {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#contenedor-flex-space1 {
+    height: 140px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flex-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#contenedor-flex-spacebetween1 {
+    height: 140px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flex-start {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#contenedor-flex-start {
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flexcenter {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#flexboxcenter {
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flexend {
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#flexboxend {
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flexrow {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+#flexboxrow {
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+    background-color: violet;
+}
+
+#container-flexcolumn {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px;
+    height: 300px;
+    background-color: lightblue;
+}
+
+#flexboxcolumn {
+    height: 50px;
+    width: 960px;
+    margin: 5px;
+    background-color: violet;
+}
+
+#container-flexcolumn-rever {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    margin: 20px;
+    height: 300px;
+    background-color: lightblue;
+}
+
+#flexboxcolumn-rever {
+    height: 50px;
+    width: 960px;
+    margin: 5px;
+    background-color: violet;
+}
+
+#container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 120px;
+    background-color: lightblue;
+}
+
+#flexbox-wrap {
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    background-color: violet;
+}
+
+#container-wrap-rever {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 10px;
+    height: 120px;
+    background-color: lightblue;
+}
+
+#flexbox-wrap-rever {
+    height: 50px;
+    width: 60px;
+    margin: 5px;
+    background-color: violet;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+}
+
+
+/*Responsive*/
+
+@media all and (min-width:600px) and (max-width: 1023px) {}
+
+
+/* Media para Iphones 6/7/8  */
+
+@media all and (min-width:375px) and (max-width: 667px) {}

@@ -1,0 +1,43 @@
+                body {
+                    background-color: #dfe4ea;
+                    width: 1024px;
+                    height: 970px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                #principal {
+                    height: 500px;
+                    border: 1px solid black;
+                    margin: 30px;
+                    margin-bottom: 135px;
+                }
+                
+                #my-video {
+                    margin: auto;
+                    top: 18px;
+                    width: 810px;
+                    height: 464px;
+                }
+                
+                @font-face {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-display: swap;
+                    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+                }
+                
+                @font-face {
+                    font-family: 'Irish Grover';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-display: swap;
+                    src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+                }
+                /*Responsive*/
+                
+                @media all and (min-width:600px) and (max-width: 1023px) {}
+                /* Media para Iphones 6/7/8  */
+                
+                @media all and (min-width: 375px) and (max-width: 667px) {}

@@ -1,0 +1,134 @@
+body {
+    background-color: #dfe4ea;
+    width: 1024px;
+    height: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#seccion1 {
+    background-image: url(joshua-aragon-EaB4Ml7C7fE-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 630px;
+}
+
+#seccion1 #principal h1 {
+    text-align: center;
+    color: darkorange;
+    font-size: 32px;
+    font-family: 'Irish Grover';
+    text-shadow: 0 2px 0 #000000, 0 4px 0 #000000, 0 6px 0 #000000, 0 8px 0 rgba(0, 0, 0, 0.1), 3px 8px 5px rgba(0, 0, 0, 0.3);
+}
+
+#seccion1 #principal p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins';
+    text-shadow: 0 2px 0 rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+}
+
+
+/*Responsive*/
+
+@media all and (min-width:600px) and (max-width: 1023px) {
+    body {
+        background-color: #dfe4ea;
+        width: 1024px;
+        height: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #seccion1 {
+        height: 610px;
+    }
+    #seccion1 #principal h1 {
+        text-align: center;
+        color: darkorange;
+        font-size: 60px;
+        font-family: 'Irish Grover';
+        text-shadow: 0 2px 0 #000000, 0 4px 0 #000000, 0 6px 0 #000000, 0 8px 0 rgba(0, 0, 0, 0.1), 3px 8px 5px rgba(0, 0, 0, 0.3);
+    }
+    #seccion1 #principal p {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Poppins';
+        text-shadow: 0 2px 0 rgb(0, 0, 0);
+    }
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Irish Grover';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+    }
+}
+
+
+/* Media para Iphones 6/7/8  */
+
+@media all and (min-width:375px) and (max-width: 667px) {
+    body {
+        background-color: #dfe4ea;
+        width: 370px;
+        height: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #seccion1 {
+        height: 265px;
+    }
+    #seccion1 #principal h1 {
+        text-align: center;
+        color: darkorange;
+        font-size: 32px;
+        font-family: 'Irish Grover';
+        text-shadow: 0 2px 0 #000000, 0 4px 0 #000000, 0 6px 0 #000000, 0 8px 0 rgba(0, 0, 0, 0.1), 3px 8px 5px rgba(0, 0, 0, 0.3);
+    }
+    #seccion1 #principal p {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: 'Poppins';
+        text-shadow: 0 2px 0 rgb(0, 0, 0);
+    }
+    @font-face {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+    }
+    @font-face {
+        font-family: 'Irish Grover';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+    }
+}

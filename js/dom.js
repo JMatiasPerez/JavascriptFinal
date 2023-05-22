@@ -1,0 +1,40 @@
+var dom = confirm('¿Quiere ver las modificaciones aplicadas con DOM?');
+if (dom) {
+    var principal = document.getElementById('principal')
+    var imagenes = document.getElementById('cajaimg')
+    var imagenes1 = document.getElementById('cajaimg1')
+    var imagenes2 = document.getElementById('cajaimg2')
+    var titulo = document.getElementsByTagName('h1')
+    var titulo1 = document.getElementsByTagName('h2')
+    var parrafos = document.getElementsByTagName('p')
+    var body = document.getElementsByTagName('body')
+    var nav = document.getElementById('navegador')
+    var footer = document.getElementsByClassName('principal_container')
+    var contenedor = document.getElementById('principal_container')
+    var section = document.getElementsByTagName('section')
+    var fondoimg = document.getElementsByClassName('img')
+    var seccionmod = document.getElementById('seccionmod')
+
+}
+body[0].style.backgroundColor = '#000000'
+body[0].style.height = '800px'
+nav.style.backgroundColor = 'white'
+parrafos[0].style.color = '#cccccc'
+parrafos[1].style.color = '#cccccc'
+parrafos[2].style.color = '#cccccc'
+parrafos[3].style.color = '#cccccc'
+titulo[0].style.color = 'red'
+principal.style.backgroundColor = '#000000'
+principal.style.height = '300px'
+imagenes.style.display = 'none'
+imagenes1.style.display = 'none'
+imagenes2.style.display = 'none'
+footer[1].style.backgroundColor = "green"
+footer[0].style.backgroundColor = "yellow"
+footer[2].style.backgroundColor = "blue"
+section[0].style.backgroundColor = 'black'
+section[0].style.bottom = '400px'
+section[0].style.height = '900px'
+titulo1[3].style.display = 'none'
+seccionmod.style.backgroundColor = 'white'
+seccionmod.style.height = '360px'

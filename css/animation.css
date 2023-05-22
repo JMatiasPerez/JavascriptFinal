@@ -1,0 +1,101 @@
+body {
+    background-color: #dfe4ea;
+    width: 1024px;
+    height: 970px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+#container-animation {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px auto;
+}
+
+figure {
+    height: 100px;
+    width: 250px;
+    bottom: 150px;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+figure .front-card,
+figure.behind-card {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all ease .5s;
+}
+
+figure .front-card {
+    display: block;
+}
+
+figure .behind-card {
+    position: absolute;
+    top: 30px;
+    padding: 20px;
+    color: #fff;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: auto;
+}
+
+figcaption {
+    position: absolute;
+}
+
+#container-animation figure img {
+    height: 270px;
+}
+
+.contenedorAnimacion {
+    margin: 15px;
+}
+
+.contenedorAnimacion:hover figure {
+    transform: perspective(600px) rotateY(180deg);
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, .25);
+}
+
+.contenedorAnimacion:hover img {
+    filter: blur(.9px);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+}
+
+
+/*Responsive*/
+
+@media all and (min-width: 600px) and (max-width: 1023px) {}
+
+
+/* Media para Iphones 6/7/8  */
+
+@media all and (min-width:375px) and (max-width: 667px) {}

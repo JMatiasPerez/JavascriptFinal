@@ -1,0 +1,112 @@
+        body {
+            background-color: #dfe4ea;
+            width: 1024px;
+            height: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #seccionprincipal {
+            height: 500px;
+            margin-top: 40px;
+        }
+        
+        #seccionprincipal #principal form {
+            height: 500px;
+            background-color: grey;
+            margin: 10px;
+        }
+        
+        #seccionprincipal #principal form label {
+            display: block;
+            height: 30px;
+            font-size: 20px;
+            padding: 5px;
+            color: white;
+            margin-left: 200px;
+        }
+        
+        #nombre {
+            position: relative;
+        }
+        
+        #apellido {
+            position: relative;
+            left: -4px;
+        }
+        
+        #mail {
+            position: relative;
+            right: -20px;
+        }
+        
+        #texto {
+            margin-left: 240px;
+            margin-top: 20px;
+        }
+        
+        #areatexto {
+            resize: none;
+            height: 220px;
+            width: 500px;
+            position: relative;
+            left: 350px;
+        }
+        
+        #boton {
+            box-shadow: inset -2px -4px 18px -7px #f2fadc;
+            background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+            background-color: #dbe6c4;
+            border-radius: 22px;
+            border: 2px solid #b2b8ad;
+            display: block;
+            cursor: pointer;
+            color: #757d6f;
+            font-family: Arial;
+            font-size: 17px;
+            font-weight: bold;
+            padding: 12px 34px;
+            text-decoration: none;
+            text-shadow: 0px 2px 0px #ced9bf;
+            position: relative;
+            left: 530px;
+            bottom: 30px;
+        }
+        
+        #boton:hover {
+            background: linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+            background-color: #9ba892;
+        }
+        
+        #boton:active {
+            position: relative;
+            bottom: 27px;
+        }
+        
+        #seccionprincipal #principal form label input {
+            height: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        
+        #seccionesPaginas {
+            margin-top: 130px!important;
+        }
+        
+        #titulo2 {
+            bottom: 70px !important;
+        }
+        
+        @font-face {
+            font-family: 'Irish Grover';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/s/irishgrover/v12/buExpoi6YtLz2QW7LA4flVgv__RP.woff2) format('woff2');
+        }
+        /*Responsive*/
+        
+        @media all and (min-width:600px) and (max-width: 1023px) {}
+        /* Media para Iphones 6/7/8  */
+        
+        @media all and (min-width: 375px) and (max-width: 667px) {}

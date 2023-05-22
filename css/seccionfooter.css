@@ -1,0 +1,320 @@
+#seccionesPaginas {
+    height: 780px;
+    background: black;
+}
+
+#titulo2 {
+    height: 40px;
+    position: relative;
+    bottom: 101px;
+    margin-top: 10px;
+}
+
+#titulo2 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+
+#columnaCont {
+    background-color: black;
+    height: 780px;
+}
+
+#columnaCont .cont {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+#columnaCont .cont img {
+    height: 200px;
+}
+
+#imagen1 {
+    width: 300px !important;
+}
+
+#imagen2 {
+    width: 300px!important;
+}
+
+#imagen5 {
+    width: 300px !important;
+}
+
+#imagen6 {
+    width: 300px !important;
+}
+
+#imageniphone {
+    width: 300px!important;
+}
+
+.textohoover {
+    background-color: black;
+    position: relative;
+    bottom: 220px;
+    opacity: 0.6;
+    width: 315px;
+    height: 210px;
+}
+
+.textohoover a {
+    text-decoration: none;
+    color: white;
+}
+
+.textohoover p {
+    text-align: center;
+    padding-top: 60px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.textohoover:hover {
+    display: block;
+    background-color: black;
+    position: relative;
+    bottom: 220px;
+    opacity: 0.9;
+    width: 315px;
+    height: 210px;
+}
+
+footer {
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 48px;
+    background-color: black;
+    position: relative;
+    bottom: 3px;
+}
+
+footer #footer_nav ul {
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+footer #footer_nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer #footer_nav ul li a {
+    position: relative;
+    margin: 3px;
+    top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(131, 51, 51);
+}
+
+footer #footer_nav h3 {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    float: right;
+    top: 10px;
+}
+
+@media all and (min-width:600px) and (max-width: 1023px) {
+    #seccionesPaginas {
+        height: 780px;
+    }
+    #titulo2 {
+        height: 60px;
+        position: relative;
+        bottom: 101px;
+        margin-top: 10px;
+    }
+    #titulo2 h2 {
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Poppins';
+    }
+    #columnaCont {
+        height: 760px;
+    }
+    #columnaCont .cont {
+        height: 200px;
+        width: 300px;
+        float: left;
+        margin: 20px;
+    }
+    #columnaCont .cont img {
+        height: 200px;
+    }
+    #imagen1 {
+        width: 300px !important;
+    }
+    #imagen2 {
+        width: 300px!important;
+    }
+    #imagen5 {
+        width: 300px !important;
+    }
+    #imagen6 {
+        width: 300px !important;
+    }
+    #imageniphone {
+        width: 300px!important;
+    }
+    .textohoover {
+        position: relative;
+        bottom: 220px;
+        opacity: 0.6;
+        width: 315px;
+        height: 210px;
+    }
+    .textohoover a {
+        text-decoration: none;
+        color: white;
+    }
+    .textohoover p {
+        text-align: center;
+        padding-top: 60px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .textohoover:hover {
+        display: block;
+        background-color: black;
+        position: relative;
+        bottom: 220px;
+        opacity: 0.9;
+        width: 315px;
+        height: 210px;
+    }
+    footer {
+        height: 70px;
+        margin-top: 48px;
+        position: relative;
+        bottom: 3px;
+    }
+    footer #footer_nav ul {
+        list-style: none;
+        display: inline;
+        text-align: center;
+    }
+    footer #footer_nav ul li {
+        list-style: none;
+        display: inline-block;
+    }
+    footer #footer_nav ul li a {
+        position: relative;
+        margin: 3px;
+        top: 20px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    footer #footer_nav h3 {
+        font-size: 15px;
+        position: relative;
+        float: right;
+        top: 10px;
+    }
+}
+
+
+/* Media para Iphones 6/7/8  */
+
+@media all and (min-width:375px) and (max-width: 667px) {
+    #seccionesPaginas {
+        height: 780px;
+    }
+    #titulo2 {
+        height: 40px;
+        position: relative;
+        bottom: 101px;
+        margin-top: 10px;
+    }
+    #titulo2 h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    #columnaCont {
+        height: 780px;
+    }
+    #columnaCont .cont {
+        height: 200px;
+        width: 300px;
+        float: left;
+        margin: 20px;
+    }
+    #columnaCont .cont img {
+        height: 200px;
+    }
+    #imagen1 {
+        width: 300px !important;
+    }
+    #imagen2 {
+        width: 300px!important;
+    }
+    #imagen5 {
+        width: 300px !important;
+    }
+    #imagen6 {
+        width: 300px !important;
+    }
+    #imageniphone {
+        width: 300px!important;
+    }
+    .textohoover {
+        position: relative;
+        bottom: 220px;
+        opacity: 0.6;
+        width: 315px;
+        height: 210px;
+    }
+    .textohoover a {
+        text-decoration: none;
+    }
+    .textohoover p {
+        text-align: center;
+        padding-top: 60px;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .textohoover:hover {
+        display: block;
+        position: relative;
+        bottom: 220px;
+        opacity: 0.9;
+        width: 315px;
+        height: 210px;
+    }
+    footer {
+        height: 70px;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 48px;
+        position: relative;
+        bottom: 3px;
+    }
+    footer #footer_nav ul {
+        list-style: none;
+        display: inline;
+        text-align: center;
+    }
+    footer #footer_nav ul li {
+        list-style: none;
+        display: inline-block;
+    }
+    footer #footer_nav ul li a {
+        position: relative;
+        margin: 3px;
+        top: 20px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    footer #footer_nav h3 {
+        font-size: 15px;
+        position: relative;
+        float: right;
+        top: 10px;
+    }
+}
